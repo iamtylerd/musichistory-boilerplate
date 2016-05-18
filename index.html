@@ -4,10 +4,46 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
+<div class="nav-bar">
+	<ul>
+		<li><a href="">View Music</a></li>
+		<li><a href="">Add Music</a></li>
+		<li><a href="">Profile</a></li>
+	</ul>
+</div>
+<div class="song-options">
+	<label for="length">Song length:</label>
+		<input type="range" id="length" min="10" max="100" step="10">
+	<label for="artist">Artist:</label>
+		<select name="artist">
+			<option value="option1">Option 1</option>
+			<option value="option2">Option 2</option>
+			<option value="option3">Option 3</option>
+			<option value="option4">Option 4</option>
+			<option value="option5">Option 5</option>
+		</select>
+	<label for="album">Album:</label>
+		<select name="album">
+			<option value="option1">Option 1</option>
+			<option value="option2">Option 2</option>
+			<option value="option3">Option 3</option>
+			<option value="option4">Option 4</option>
+			<option value="option5">Option 5</option>
+		</select>
+	<label for="genre">Genre:</label>
+		<input type="checkbox" name="genre" value="rock">Rock
+		<input type="checkbox" name="genre" value="pop">Pop
+		<input type="checkbox" name="genre" value="blues">Blues
+		<input type="checkbox" name="genre" value="classical">Classical
+		<input type="checkbox" name="genre" value="jazz">Jazz
+		<input type="checkbox" name="genre" value="hiphop">Hip Hop
 
+	<button type="button">Filter</button>
+</div>
 
 </body>
 </html>
