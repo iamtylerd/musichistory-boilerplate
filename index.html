@@ -8,42 +8,85 @@
 </head>
 
 <body>
-<div class="nav-bar">
-	<ul>
-		<li><a href="">View Music</a></li>
-		<li><a href="">Add Music</a></li>
-		<li><a href="">Profile</a></li>
-	</ul>
-</div>
-<div class="song-options">
-	<label for="length">Song length:</label>
-		<input type="range" id="length" min="10" max="100" step="10">
-	<label for="artist">Artist:</label>
-		<select name="artist">
-			<option value="option1">Option 1</option>
-			<option value="option2">Option 2</option>
-			<option value="option3">Option 3</option>
-			<option value="option4">Option 4</option>
-			<option value="option5">Option 5</option>
-		</select>
-	<label for="album">Album:</label>
-		<select name="album">
-			<option value="option1">Option 1</option>
-			<option value="option2">Option 2</option>
-			<option value="option3">Option 3</option>
-			<option value="option4">Option 4</option>
-			<option value="option5">Option 5</option>
-		</select>
-	<label for="genre">Genre:</label>
-		<input type="checkbox" name="genre" value="rock">Rock
-		<input type="checkbox" name="genre" value="pop">Pop
-		<input type="checkbox" name="genre" value="blues">Blues
-		<input type="checkbox" name="genre" value="classical">Classical
-		<input type="checkbox" name="genre" value="jazz">Jazz
-		<input type="checkbox" name="genre" value="hiphop">Hip Hop
 
-	<button type="button">Filter</button>
-</div>
+<!-- Navigation -->
 
+	<div class="nav-bar">
+		<ul>
+			<li><a href="">View Music</a></li>
+			<li><a href="">Add Music</a></li>
+			<li><a href="">Profile</a></li>
+		</ul>
+	</div>
+
+<!-- Left Sidebar -->
+
+	<div class="main-content clear">
+		<div class="song-options">
+			<label for="length">Song length:</label>
+				<input type="range" id="length" min="10" max="100" step="10">
+			<label for="artist">Artist:</label>
+				<select name="artist">
+					<option value="option1">Option 1</option>
+					<option value="option2">Option 2</option>
+					<option value="option3">Option 3</option>
+					<option value="option4">Option 4</option>
+					<option value="option5">Option 5</option>
+				</select>
+			<label for="album">Album:</label>
+				<select name="album">
+					<option value="option1">Option 1</option>
+					<option value="option2">Option 2</option>
+					<option value="option3">Option 3</option>
+					<option value="option4">Option 4</option>
+					<option value="option5">Option 5</option>
+				</select>
+			<label for="genre">Genre:</label>
+				<ul class="checkbox-grid clear">
+				<li><input type="checkbox" name="genre" value="rock">Rock</li>
+				<li><input type="checkbox" name="genre" value="pop">Pop</li>
+				<li><input type="checkbox" name="genre" value="blues">Blues</li>
+				<li><input type="checkbox" name="genre" value="classical">Classical</li>
+				<li><input type="checkbox" name="genre" value="jazz">Jazz</li>
+				<li><input type="checkbox" name="genre" value="hiphop">Hip Hop</li>
+				</ul>
+			<button type="button" class="filter-button"><h3>Filter</h3></button>
+		</div>
+<!-- Song Details Area -->
+		<div class="song-name">
+			<div class="song1">
+				<h1>Song Name</h1>
+					<ul class="song-details">
+						<li>Artist name</li>
+						<li>Album name</li>
+						<li>Genre</li>
+					</ul>
+			</div>
+			<div class="song2">
+				<h1>Song Name</h1>
+					<ul class="song-details">
+						<li>Artist name</li>
+						<li>Album name</li>
+						<li>Genre</li>
+					</ul>
+			</div>
+			<div class="song3">
+				<h1>Song Name</h1>
+					<ul class="song-details">
+						<li>Artist name</li>
+						<li>Album name</li>
+						<li>Genre</li>
+					</ul>
+			</div>
+			<div class="song4">
+				<h1>Song Name</h1>
+					<ul class="song-details">
+						<li>Artist name</li>
+						<li>Album name</li>
+						<li>Genre</li>
+					</ul>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
