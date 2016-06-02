@@ -17,3 +17,17 @@ for (var i = 0; i<songs.length; i++) {
 	var dashSong = cleanUp.replace(/>/g, '-');
 	console.log(dashSong);
 }
+
+
+var songArray = document.getElementsByClassName("song-array");
+
+for (var i = 0; i < songArray.length; i++) {
+	if ([i] % 2 === 0) {
+		songArray[i].classList.add("mintcream");
+	} else {
+		songArray[i].classList.add("seashell");
+	};
+	if ([i] <= 0) {
+		songArray[i].classList.add("boldtext");
+	};
+}
