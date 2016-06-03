@@ -1,0 +1,23 @@
+{
+	"songs": [{
+		"title": "Big Poppa2",
+		"artist": "Notorious BIG",
+		"album": "Ready to Die",
+		"genre": "Hip-Hop"
+	}, {
+		"title": "Legs2",
+		"artist": "ZZTop",
+		"album": "Eliminator",
+		"genre": "Rock"
+	}, {
+		"title": "The Logical Song2",
+		"artist": "Supertramp",
+		"album": "Breakfast in America",
+		"genre": "Rock"
+	}, {
+		"title": "Another Brick in the Wall2",
+		"artist": "Pink Floyd",
+		"album": "The Wall",
+		"genre": "Rock"
+	}]
+}
